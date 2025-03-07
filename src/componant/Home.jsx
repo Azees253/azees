@@ -10,6 +10,9 @@ import ecm from "../assets/ecm.png";
 import { useEffect } from "react";
 import Typed from "typed.js";
 import resume from "../assets/Azees.pdf";
+import trvl from "../assets/trvl.jpg";
+import shirt from "../assets/shirt.jpg";
+import zomato from "../assets/zomato.jpg";
 
 export default function Home() {
   useEffect(() => {
@@ -206,9 +209,10 @@ export default function Home() {
 
                 <h2>FAY-WALK-WEBSITE</h2>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Reprehenderit incidunt in veritatis inventore placeat,
-                  quibusdam nisi quam eaque impedit distinctio?
+                  I created my first React project, a shirt e-commerce website.
+                  It includes a home page, a collection page, and a contact
+                  page. The website has selection functionality and imported
+                  icons, making it useful for clients.
                 </p>
                 <a
                   href="https://github.com/Azees253/fly-walk.git"
@@ -262,13 +266,14 @@ export default function Home() {
             </h2>
             <div className="portfolio-content">
               <div className="row">
-                <img src={ecm}></img>
+                <img src={shirt}></img>
                 <div className="layer">
                   <h5>FAY-WALK-WEDSITE-PROJECT</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusantium molestias aspernatur temporibus perferendis
-                    incidunt reiciendis, aliquid porro nulla similique ut.
+                    I created my first React project, a shirt e-commerce
+                    website. It includes a home page, a collection page, and a
+                    contact page. The website has selection functionality and
+                    imported icons, making it useful for clients.
                   </p>
                   <a href="https://azees253.github.io/fly-walk/">
                     <i
@@ -279,7 +284,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="row">
-                <img src={ecm}></img>
+                <img src={trvl}></img>
                 <div className="layer">
                   <h5>TRAVAL-WEBSITE-PROJECT</h5>
                   <p>
@@ -296,7 +301,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="row">
-                <img src={ecm}></img>
+                <img src={zomato}></img>
                 <div className="layer">
                   <h5>Zomato website</h5>
                   <p>

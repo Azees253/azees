@@ -34,9 +34,10 @@ export default function Protfolio() {
 
                 <h2>FAY-WALK-WEBSITE</h2>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Reprehenderit incidunt in veritatis inventore placeat,
-                  quibusdam nisi quam eaque impedit distinctio?
+                  I created my first React project, a shirt e-commerce website.
+                  It includes a home page, a collection page, and a contact
+                  page. The website has selection functionality and imported
+                  icons, making it useful for clients.
                 </p>
                 <a
                   href="https://github.com/Azees253/fly-walk.git"
@@ -94,9 +95,10 @@ export default function Protfolio() {
                 <div className="layer">
                   <h5>FAY-WALK-WEDSITE-PROJECT</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusantium molestias aspernatur temporibus perferendis
-                    incidunt reiciendis, aliquid porro nulla similique ut.
+                    I created my first React project, a shirt e-commerce
+                    website. It includes a home page, a collection page, and a
+                    contact page. The website has selection functionality and
+                    imported icons, making it useful for clients.
                   </p>
                   <a href="https://azees253.github.io/fly-walk/">
                     <i
