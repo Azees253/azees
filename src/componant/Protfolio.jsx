@@ -7,6 +7,9 @@ import "../styles/Contact.css";
 import azees1 from "../assets/aji2.jpeg";
 import azees2 from "../assets/aji4.jpeg";
 import ecm from "../assets/ecm.png";
+import trvl from "../assets/trvl.jpg";
+import shirt from "../assets/shirt.jpg";
+import zomato from "../assets/zomato.jpg";
 import { useEffect } from "react";
 import Typed from "typed.js";
 
@@ -87,7 +90,7 @@ export default function Protfolio() {
             </h2>
             <div className="portfolio-content">
               <div className="row">
-                <img src={ecm}></img>
+                <img src={shirt}></img>
                 <div className="layer">
                   <h5>FAY-WALK-WEDSITE-PROJECT</h5>
                   <p>
@@ -104,7 +107,7 @@ export default function Protfolio() {
                 </div>
               </div>
               <div className="row">
-                <img src={ecm}></img>
+                <img src={trvl}></img>
                 <div className="layer">
                   <h5>TRAVAL-WEBSITE-PROJECT</h5>
                   <p>
@@ -121,7 +124,7 @@ export default function Protfolio() {
                 </div>
               </div>
               <div className="row">
-                <img src={ecm}></img>
+                <img src={zomato}></img>
                 <div className="layer">
                   <h5>Zomato website</h5>
                   <p>
