@@ -65,13 +65,13 @@ export default function Protfolio() {
                   class="fa-solid fa-file-code"
                   style={{ color: "#00eeff" }}
                 ></i>
-                <h2>E-commerce-website</h2>
+                <h2>Zomato-website</h2>
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Reprehenderit incidunt in veritatis inventore placeat,
                   quibusdam nisi quam eaque impedit distinctio?
                 </p>
-                <a href="" class="read">
+                <a href="https://github.com/Azees253/zomato.git" class="read">
                   CODE
                 </a>
               </div>
@@ -123,13 +123,13 @@ export default function Protfolio() {
               <div className="row">
                 <img src={ecm}></img>
                 <div className="layer">
-                  <h5>E-commerce website</h5>
+                  <h5>Zomato website</h5>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Accusantium molestias aspernatur temporibus perferendis
                     incidunt reiciendis, aliquid porro nulla similique ut.
                   </p>
-                  <a href="">
+                  <a href="https://azees253.github.io/zomato/">
                     <i
                       style={{ color: "white" }}
                       class="fa-solid fa-arrow-up-right-from-square"
