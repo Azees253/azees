@@ -18,9 +18,7 @@ export default function Contact() {
           </h2>
           <h4>Let,s Work Together</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rem
-            illo obcaecati debitis. Vitae dolorum et consequuntur facere
-            veritatis est!
+            if you would like to contact me please follow the steps below...
           </p>
           <div className="contact-icons">
             <a href="https://www.linkedin.com/in/azees253/">
@@ -32,8 +30,8 @@ export default function Contact() {
             <a href="https://www.instagram.com/azees706/?hl=en">
               <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://github.com/Azees253">
-              <i class="fa-brands fa-github"></i>
+            <a href="">
+              <i class="fa-solid fa-envelope"></i>
             </a>
           </div>
         </div>

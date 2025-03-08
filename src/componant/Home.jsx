@@ -17,7 +17,7 @@ import zomato from "../assets/zomato.jpg";
 export default function Home() {
   useEffect(() => {
     const options = {
-      strings: ["Frontend Developer", "React.js", "React Native"],
+      strings: ["Frontend Developer", "React.js"],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -41,7 +41,7 @@ export default function Home() {
           </h3>
           <p>
             I'm Junior Web Developer job seeker <br />I create E-commerce
-            website and React Native application
+            website and React.js Project
           </p>
           <div className="home-sci">
             <a href="https://wa.link/tql3u1" style={{ i: 6 }}>
@@ -218,7 +218,7 @@ export default function Home() {
                   href="https://github.com/Azees253/fly-walk.git"
                   className="read"
                 >
-                  CODE
+                  Click
                 </a>
               </div>
               <div>
@@ -228,15 +228,17 @@ export default function Home() {
                 ></i>
                 <h2>TRAVEL-WEBSITE</h2>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Reprehenderit incidunt in veritatis inventore placeat,
-                  quibusdam nisi quam eaque impedit distinctio?
+                  My second project is called "Travel." It has four pages and
+                  provides an enjoyable journey through mountains and various
+                  destinations. Users can choose their travel locations, make
+                  bookings, and access services. The website is colorful and
+                  easy to navigate.
                 </p>
                 <a
                   href="https://github.com/Azees253/travel.git"
                   className="read"
                 >
-                  CODE
+                  Click
                 </a>
               </div>
               <div>
@@ -246,12 +248,12 @@ export default function Home() {
                 ></i>
                 <h2>Zomato-website</h2>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Reprehenderit incidunt in veritatis inventore placeat,
-                  quibusdam nisi quam eaque impedit distinctio?
+                  This project is inspired by the Zomato website. I created it
+                  to improve my skills and enhance my creativity. It can be used
+                  for multiple purposes in web development.
                 </p>
                 <a href="https://github.com/Azees253/zomato.git" class="read">
-                  CODE
+                  Click
                 </a>
               </div>
             </div>
@@ -288,9 +290,11 @@ export default function Home() {
                 <div className="layer">
                   <h5>TRAVAL-WEBSITE-PROJECT</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusantium molestias aspernatur temporibus perferendis
-                    incidunt reiciendis, aliquid porro nulla similique ut.
+                    My second project is called "Travel." It has four pages and
+                    provides an enjoyable journey through mountains and various
+                    destinations. Users can choose their travel locations, make
+                    bookings, and access services. The website is colorful and
+                    easy to navigate.
                   </p>
                   <a href="https://azees253.github.io/travel/">
                     <i
@@ -305,9 +309,9 @@ export default function Home() {
                 <div className="layer">
                   <h5>Zomato website</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusantium molestias aspernatur temporibus perferendis
-                    incidunt reiciendis, aliquid porro nulla similique ut.
+                    This project is inspired by the Zomato website. I created it
+                    to improve my skills and enhance my creativity. It can be
+                    used for multiple purposes in web development.
                   </p>
                   <a href="https://azees253.github.io/zomato/">
                     <i
@@ -328,9 +332,7 @@ export default function Home() {
           </h2>
           <h4>Let,s Work Together</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rem
-            illo obcaecati debitis. Vitae dolorum et consequuntur facere
-            veritatis est!
+            if you would like to contact me please follow the steps below...
           </p>
           <div className="contact-icons">
             <a href="https://www.linkedin.com/in/azees253/">
@@ -342,8 +344,8 @@ export default function Home() {
             <a href="https://www.instagram.com/azees706/?hl=en">
               <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://github.com/Azees253">
-              <i class="fa-brands fa-github"></i>
+            <a href="">
+              <i class="fa-solid fa-envelope"></i>
             </a>
           </div>
         </div>

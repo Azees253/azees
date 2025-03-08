@@ -43,7 +43,7 @@ export default function Protfolio() {
                   href="https://github.com/Azees253/fly-walk.git"
                   className="read"
                 >
-                  CODE
+                  Click
                 </a>
               </div>
               <div>
@@ -53,15 +53,17 @@ export default function Protfolio() {
                 ></i>
                 <h2>TRAVEL-WEBSITE</h2>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Reprehenderit incidunt in veritatis inventore placeat,
-                  quibusdam nisi quam eaque impedit distinctio?
+                  My second project is called "Travel." It has four pages and
+                  provides an enjoyable journey through mountains and various
+                  destinations. Users can choose their travel locations, make
+                  bookings, and access services. The website is colorful and
+                  easy to navigate.
                 </p>
                 <a
                   href="https://github.com/Azees253/travel.git"
                   className="read"
                 >
-                  CODE
+                  Click
                 </a>
               </div>
               <div>
@@ -71,12 +73,12 @@ export default function Protfolio() {
                 ></i>
                 <h2>Zomato-website</h2>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Reprehenderit incidunt in veritatis inventore placeat,
-                  quibusdam nisi quam eaque impedit distinctio?
+                  This project is inspired by the Zomato website. I created it
+                  to improve my skills and enhance my creativity. It can be used
+                  for multiple purposes in web development.
                 </p>
                 <a href="https://github.com/Azees253/zomato.git" class="read">
-                  CODE
+                  Click
                 </a>
               </div>
             </div>
@@ -113,9 +115,11 @@ export default function Protfolio() {
                 <div className="layer">
                   <h5>TRAVAL-WEBSITE-PROJECT</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusantium molestias aspernatur temporibus perferendis
-                    incidunt reiciendis, aliquid porro nulla similique ut.
+                    My second project is called "Travel." It has four pages and
+                    provides an enjoyable journey through mountains and various
+                    destinations. Users can choose their travel locations, make
+                    bookings, and access services. The website is colorful and
+                    easy to navigate.
                   </p>
                   <a href="https://azees253.github.io/travel/">
                     <i
@@ -130,9 +134,9 @@ export default function Protfolio() {
                 <div className="layer">
                   <h5>Zomato website</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusantium molestias aspernatur temporibus perferendis
-                    incidunt reiciendis, aliquid porro nulla similique ut.
+                    This project is inspired by the Zomato website. I created it
+                    to improve my skills and enhance my creativity. It can be
+                    used for multiple purposes in web development.
                   </p>
                   <a href="https://azees253.github.io/zomato/">
                     <i
