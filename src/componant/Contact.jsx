@@ -4,8 +4,20 @@ import "../styles/Services.css";
 import "../styles/Project.css";
 import "../styles/Protfolio.css";
 import "../styles/Contact.css";
+import React from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm(
+      "service_ukieswo",
+      "template_4dtiprc",
+      e.target,
+      "NtGd6cRhtVM-0rput"
+    );
+    alert("successfully");
+  }
   return (
     <>
       <div className="nav">
@@ -36,7 +48,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="contact-form">
-          <form action="">
+          <form onSubmit={sendEmail}>
             <input
               type="text"
               name="name"
@@ -45,7 +57,7 @@ export default function Contact() {
             />
             <input
               type="email"
-              name="email"
+              name="email_form"
               placeholder="Enter Your Email"
               required
             />
@@ -55,7 +67,7 @@ export default function Contact() {
               placeholder="Enter your subject"
             />
             <textarea
-              name="msg"
+              name="message"
               id=""
               cols="40"
               rows="10"

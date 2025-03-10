@@ -13,6 +13,7 @@ import resume from "../assets/Azees.pdf";
 import trvl from "../assets/trvl.jpg";
 import shirt from "../assets/shirt.jpg";
 import zomato from "../assets/zomato.jpg";
+import emailjs from "@emailjs/browser";
 
 export default function Home() {
   useEffect(() => {
@@ -27,6 +28,16 @@ export default function Home() {
 
     return () => typed.destroy();
   }, []);
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm(
+      "service_ukieswo",
+      "template_4dtiprc",
+      e.target,
+      "NtGd6cRhtVM-0rput"
+    );
+    alert("successfully");
+  }
   return (
     <>
       <div>
@@ -350,7 +361,7 @@ export default function Home() {
           </div>
         </div>
         <div className="contact-form">
-          <form action="">
+          <form onSubmit={sendEmail}>
             <input
               type="text"
               name="name"
@@ -359,7 +370,7 @@ export default function Home() {
             />
             <input
               type="email"
-              name="email"
+              name="email_form"
               placeholder="Enter Your Email"
               required
             />
@@ -369,7 +380,7 @@ export default function Home() {
               placeholder="Enter your subject"
             />
             <textarea
-              name="msg"
+              name="message"
               id=""
               cols="40"
               rows="10"
