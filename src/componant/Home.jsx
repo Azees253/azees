@@ -360,7 +360,7 @@ export default function Home() {
             <a href="https://www.instagram.com/azees706/?hl=en">
               <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="">
+            <a href="mailto:mohamedazees61@gmail.com">
               <i class="fa-solid fa-envelope"></i>
             </a>
           </div>
