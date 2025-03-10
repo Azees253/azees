@@ -6,6 +6,7 @@ import "../styles/Protfolio.css";
 import "../styles/Contact.css";
 import React from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 export default function Contact() {
   function sendEmail(e) {
@@ -16,7 +17,11 @@ export default function Contact() {
       e.target,
       "NtGd6cRhtVM-0rput"
     );
-    alert("successfully");
+    Swal.fire({
+      title: "Successfully!",
+      text: "You Gmail send!",
+      icon: "success",
+    });
   }
   return (
     <>
