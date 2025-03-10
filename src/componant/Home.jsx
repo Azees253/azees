@@ -14,6 +14,7 @@ import trvl from "../assets/trvl.jpg";
 import shirt from "../assets/shirt.jpg";
 import zomato from "../assets/zomato.jpg";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 export default function Home() {
   useEffect(() => {
@@ -36,7 +37,11 @@ export default function Home() {
       e.target,
       "NtGd6cRhtVM-0rput"
     );
-    alert("successfully");
+    Swal.fire({
+      title: "Successfully!",
+      text: "You Gmail send!",
+      icon: "success",
+    });
   }
   return (
     <>
