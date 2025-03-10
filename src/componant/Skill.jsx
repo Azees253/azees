@@ -4,11 +4,6 @@ import "../styles/Services.css";
 import "../styles/Project.css";
 import "../styles/Protfolio.css";
 import "../styles/Contact.css";
-import azees1 from "../assets/aji2.jpeg";
-import azees2 from "../assets/aji4.jpeg";
-import ecm from "../assets/ecm.png";
-import { useEffect } from "react";
-import Typed from "typed.js";
 
 export default function Skill() {
   return (

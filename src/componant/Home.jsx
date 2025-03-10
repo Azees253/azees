@@ -214,7 +214,7 @@ export default function Home() {
         <div className="services" id="services">
           <div className="container">
             <h1 className="sub-title">
-              My <span>Services</span>
+              My<span>Services</span>
             </h1>
             <div className="services-list">
               <div>
