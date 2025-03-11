@@ -89,7 +89,7 @@ export default function Protfolio() {
         <div className="protfolio" id="protfolio">
           <div className="main-text" id="project">
             <h2>
-              Latest<span>Project</span>
+              Live<span>Project</span>
             </h2>
             <div className="portfolio-content">
               <div className="row">

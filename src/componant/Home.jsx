@@ -280,7 +280,7 @@ export default function Home() {
         <div className="protfolio" id="protfolio">
           <div className="main-text" id="project">
             <h2>
-              Latest <span>Project</span>
+              Live<span>Project</span>
             </h2>
             <div className="portfolio-content">
               <div className="row">
@@ -348,7 +348,11 @@ export default function Home() {
           </h2>
           <h4>Let,s Work Together</h4>
           <p>
-            if you would like to contact me please follow the steps below...
+            I believe we can achieve great results by combining our skills and
+            perspectives on this project. Let's work together to meet our
+            deadlines and deliver outstanding work. I'm available to discuss any
+            challenges you're facing, and I welcome your ideas and feedback.
+            Looking forward to our collaboration!
           </p>
           <div className="contact-icons">
             <a href="https://www.linkedin.com/in/azees253/">
