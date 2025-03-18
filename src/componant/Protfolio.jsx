@@ -71,6 +71,26 @@ export default function Protfolio() {
                   class="fa-solid fa-file-code"
                   style={{ color: "#00eeff" }}
                 ></i>
+                <h2>Food-delivery</h2>
+                <p>
+                  My second project is called "Travel." It has four pages and
+                  provides an enjoyable journey through mountains and various
+                  destinations. Users can choose their travel locations, make
+                  bookings, and access services. The website is colorful and
+                  easy to navigate.
+                </p>
+                <a
+                  href="https://github.com/Azees253/food-delivery.git"
+                  className="read"
+                >
+                  Click
+                </a>
+              </div>
+              <div>
+                <i
+                  class="fa-solid fa-file-code"
+                  style={{ color: "#00eeff" }}
+                ></i>
                 <h2>Zomato-website</h2>
                 <p>
                   This project is inspired by the Zomato website. I created it
@@ -122,6 +142,25 @@ export default function Protfolio() {
                     easy to navigate.
                   </p>
                   <a href="https://azees253.github.io/travel/">
+                    <i
+                      style={{ color: "white" }}
+                      class="fa-solid fa-arrow-up-right-from-square"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+              <div className="row">
+                <img src={trvl}></img>
+                <div className="layer">
+                  <h5>Food-delivery</h5>
+                  <p>
+                    My second project is called "Travel." It has four pages and
+                    provides an enjoyable journey through mountains and various
+                    destinations. Users can choose their travel locations, make
+                    bookings, and access services. The website is colorful and
+                    easy to navigate.
+                  </p>
+                  <a href="https://azees253.github.io/food-delivery/">
                     <i
                       style={{ color: "white" }}
                       class="fa-solid fa-arrow-up-right-from-square"
