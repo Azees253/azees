@@ -17,12 +17,27 @@ export default function Contact() {
       e.target,
       "NtGd6cRhtVM-0rput"
     );
+
     Swal.fire({
       title: "Successfully!",
       text: "You Gmail send!",
       icon: "success",
     });
+
+    const name = document.querySelector(".name");
+    const email = document.querySelector(".email");
+    const message = document.querySelector(".message");
+    const subject = document.querySelector(".subject");
+
+    function Clear() {
+      name.value = "";
+      email.value = "";
+      message.value = "";
+      subject.value = "";
+    }
+    Clear();
   }
+
   return (
     <>
       <div className="nav">
@@ -61,22 +76,26 @@ export default function Contact() {
             <input
               type="text"
               name="name"
+              className="name"
               placeholder="Enter Your Name"
               required
             />
             <input
               type="email"
               name="email_form"
+              className="email"
               placeholder="Enter Your Email"
               required
             />
             <input
               type="text"
               name="subject"
+              className="subject"
               placeholder="Enter your subject"
             />
             <textarea
               name="message"
+              className="message"
               id=""
               cols="40"
               rows="10"

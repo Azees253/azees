@@ -42,7 +42,21 @@ export default function Home() {
       text: "You Gmail send!",
       icon: "success",
     });
+    const name = document.querySelector(".name");
+    const email = document.querySelector(".email");
+    const message = document.querySelector(".message");
+    const subject = document.querySelector(".subject");
+
+    function Clear() {
+      name.value = "";
+      email.value = "";
+      message.value = "";
+      subject.value = "";
+    }
+
+    Clear();
   }
+
   return (
     <>
       <div>
@@ -413,11 +427,13 @@ export default function Home() {
             <input
               type="text"
               name="name"
+              className="name"
               placeholder="Enter Your Name"
               required
             />
             <input
               type="email"
+              className="email"
               name="email_form"
               placeholder="Enter Your Email"
               required
@@ -425,10 +441,12 @@ export default function Home() {
             <input
               type="text"
               name="subject"
+              className="subject"
               placeholder="Enter your subject"
             />
             <textarea
               name="message"
+              className="message"
               id=""
               cols="40"
               rows="10"
