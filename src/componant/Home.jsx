@@ -15,6 +15,8 @@ import shirt from "../assets/shirt.jpg";
 import zomato from "../assets/zomato.jpg";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import netflix from "../assets/netflix.jpeg";
+import devl from "../assets/devl.jpeg";
 
 export default function Home() {
   useEffect(() => {
@@ -355,7 +357,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="row">
-                <img src={zomato}></img>
+                <img src={devl}></img>
                 <div className="layer">
                   <h5>Food-delivery</h5>
                   <p>
@@ -383,6 +385,31 @@ export default function Home() {
                     used for multiple purposes in web development.
                   </p>
                   <a href="https://azees253.github.io/zomato/">
+                    <i
+                      style={{ color: "white" }}
+                      class="fa-solid fa-arrow-up-right-from-square"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="main-text">
+            <h2>
+              web <span>Application</span>
+            </h2>
+            <div className="portfolio-content">
+              <div className="row">
+                <img src={netflix}></img>
+                <div className="layer">
+                  <h5>NETFLIX-WEDAPPLICATION-PROJECT</h5>
+                  <p>
+                    I created my first React project, a shirt e-commerce
+                    website. It includes a home page, a collection page, and a
+                    contact page. The website has selection functionality and
+                    imported icons, making it useful for clients.
+                  </p>
+                  <a href="https://azees253.github.io/netflix-clone/">
                     <i
                       style={{ color: "white" }}
                       class="fa-solid fa-arrow-up-right-from-square"
