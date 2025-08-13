@@ -7,21 +7,14 @@ var typed = new Typed("#element", {
 });
 
 var sidenav = document.querySelector(".side-navbar");
-
+const navLinks = document.querySelectorAll(".active");
 function handleOpen() {
   sidenav.style.right = "0";
 }
 function handleClose() {
   sidenav.style.right = "-60%";
 }
-function sendEmail() {
-  Email.send({
-    Host: "smtp.mailendo.com",
-    Username: "username",
-    Password: "password",
-    To: "them@website.com",
-    From: "you@isp.com",
-    Subject: "This is the subject",
-    Body: "And this is the body",
-  }).then((message) => alert(message));
-}
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => (sidenav.style.right = "-60%"));
+});
