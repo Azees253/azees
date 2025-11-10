@@ -12,12 +12,10 @@ body {
   width: 90%;
   margin: auto;
 }
-.header {
+/* .header {
   position: fixed;
   top: 0;
-  left: 5%;
-  width: 90%;
-
+  width: 100%;
   padding: 20px 10px;
   background: black;
   display: flex;
@@ -25,9 +23,19 @@ body {
   align-items: center;
   z-index: 100;
   margin-bottom: 10%;
+} */
+.header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  padding: 20px 10px;
+  z-index: 100;
+  backdrop-filter: blur(10px);
 }
 .side-navbar {
-  background-color: black;
+  backdrop-filter: blur(10px);
   width: 50%;
   height: 100%;
   position: fixed;
@@ -36,6 +44,7 @@ body {
   margin-left: 80%;
   padding: 20px;
   right: -60%;
+  top: 0;
   transition: 0.5s;
 }
 
